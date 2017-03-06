@@ -1,0 +1,31 @@
+\section{CONCEITOS GERAIS E REVISÃO DA LITERATURA}
+
+%Lembre-se que as sessões e sub-sessões são determinadas por si para adequar-se ao seu trabalho.
+
+Neste capítulo deve ser proporcionado o estado da arte / referencial teórico sobre o tema a que se refere o estudo. Um bom pesquisador não deve repetir trabalhos já concluídos ou que já estão em andamento. Por isso esta sessão é onde o autor demonstra até onde vai a pesquisa atual no campo de estudos em questão e estabelece as bases sobre as quais desenvolverá o estudo proposto. 
+
+A seguir são mostrados alguns exemplos de como deve-se inserir as figuras e tabelas. A Figura 01 mostra um exemplo de como inserir uma figura no texto. A Tabela 01 mostra o exemplo de como uma tabela deve ser inserida.
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=6.2cm]{imagens/keep}
+\caption{Exemplo de como inserir Figura}
+\label{fig:exemplo}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{ Modelo de como as tabelas devem ser inseridas no texto }
+\vspace{0.2in}
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+\newcommand{\rowstyle}[1]{%
+  \protected\gdef\currentrowstyle{#1}%
+}
+\begin{tabularx}{\textwidth}{>{\bf}C|C|C|C}
+\hline 
+\textbf {Índice} & \textbf{Coluna 01} &\textbf{ Coluna 02} & \textbf{Coluna 03} \\ \hline \hline
+Linha 01 & & & \\ \hline
+Linha 02 & & & \\ \hline                         
+
+\end{tabularx}
+\end{table}
